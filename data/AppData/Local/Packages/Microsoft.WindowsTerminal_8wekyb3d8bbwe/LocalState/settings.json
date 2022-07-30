@@ -1,0 +1,11 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "copyOnSelect": true,
+    "profiles": 
+    {
+        "defaults": {
+            "fontFace": "HackGen Console"
+        }
+    }
+}
