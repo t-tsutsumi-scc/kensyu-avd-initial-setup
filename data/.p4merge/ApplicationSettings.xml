@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--perforce-xml-version=1.0-->
+<PropertyList IsManaged="TRUE" varName="ApplicationSettings">
+ <Font varName="ApplicationFont">
+  <family>Meiryo UI</family>
+  <pointSize>9</pointSize>
+  <weight>Normal</weight>
+  <italic>false</italic>
+ </Font>
+ <Font varName="Font">
+  <family>HackGen</family>
+  <pointSize>12</pointSize>
+  <weight>Normal</weight>
+  <italic>false</italic>
+ </Font>
+</PropertyList>
