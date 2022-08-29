@@ -5,6 +5,10 @@ echo [user]
 echo 	name = %USERNAME:TG研修ユーザ=TG Kensyu User %
 echo 	email = %USERNAME:TG研修ユーザ=tg-kensyu-%@scckk.onmicrosoft.com
 echo.
+echo [core]
+echo   autoCRLF = input
+echo   quotepath = false
+echo.
 echo [difftool "sourcetree"]
 echo 	cmd = 'C:/Program Files/Perforce/p4merge.exe' \"$LOCAL\" \"$REMOTE\"
 echo [mergetool "sourcetree"]
