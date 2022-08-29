@@ -17,10 +17,10 @@ echo 	trustExitCode = true
 echo 	keepBackup = false
 ) > %USERPROFILE%\.gitconfig
 
-winget install -h --accept-package-agreements --accept-source-agreements -e --id Microsoft.WindowsTerminal
-winget install -h --accept-package-agreements --accept-source-agreements -e --id Canonical.Ubuntu
-
 reg IMPORT kensyu-avd-initial-setup.reg
 xcopy /E /Y data %USERPROFILE%
 
-"C:\Windows\SysWOW64\OneDriveSetup.exe" /uninstall
+winget install -h --accept-package-agreements --accept-source-agreements -e --id Microsoft.WindowsTerminal
+winget install -h --accept-package-agreements --accept-source-agreements -e --id Canonical.Ubuntu
+
+REM "C:\Windows\SysWOW64\OneDriveSetup.exe" /uninstall
