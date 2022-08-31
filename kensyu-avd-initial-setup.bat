@@ -21,6 +21,6 @@ reg IMPORT kensyu-avd-initial-setup.reg
 xcopy /E /Y data %USERPROFILE%
 
 winget install -h --accept-package-agreements --accept-source-agreements -e --id Microsoft.WindowsTerminal
-winget install -h --accept-package-agreements --accept-source-agreements -e --id Canonical.Ubuntu
+winget install -h --accept-package-agreements --accept-source-agreements -e --id Canonical.Ubuntu.2204
 
 REM "C:\Windows\SysWOW64\OneDriveSetup.exe" /uninstall
